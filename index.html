@@ -4,10 +4,267 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey</title>
+    <script src="https://kit.fontawesome.com/05b85d876d.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+    .font-manrope{
+      font-family: 'Manrope', sans-serif;
+    }
+    *{
+      font-family: 'Manrope', sans-serif;
+    }
+</style>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 <body>
+    <header>
+        <nav></nav>
+        <div class="container mx-auto w-[1170px] flex flex-col justify-center items-center">
+            <div class="carousel w-[1170px] h-[550px] rounded-2xl">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <!-- <img src="Images/1.png" class="w-full" /> -->
+                  <div class="w-full" style="background-image: url(Images/1.png)">
+                       <div class="w-[510px] h-[160px] bg-black rounded-lg text-[white] p-[32px] space-y-[8px] mt-[360px] ml-[630px]">
+                        <h3 class="font-extrabold text-[24px] font-manrope">Meet all the heroes from the field</h3>
+                        <p class="text-[#ffffff99] font-[500]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                       </div>
+                  </div>
+                 
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle bg-black text-[white]">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-black text-[white]">❯</a>
+                  </div>
+                </div>
+                 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <!-- <img src="Images/h2.webp" class="w-full" /> -->
+                  <div class="w-full" style="background-image: url(Images/h2.webp)">
+                    <div class="w-[510px] h-[160px] bg-black rounded-lg text-[white] p-[32px] space-y-[8px] mt-[360px] ml-[630px]">
+                     <h3 class="font-extrabold text-[24px] font-manrope">Meet all the heroes from the field</h3>
+                     <p class="text-[#ffffff99] font-[500]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+               </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-black text-[white]">❮</a> 
+                    <a href="#slide3" class="btn btn-circle bg-black text-[white]">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <!-- <img src="Images/h3.jpg" class="w-full" /> -->
+                  <div class="w-full" style="background-image: url(Images/h3.jpg); background-size: contain;">
+                    <div class="w-[510px] h-[160px] bg-black rounded-lg text-[white] p-[32px] space-y-[8px] mt-[360px] ml-[630px]">
+                     <h3 class="font-extrabold text-[24px] font-manrope">Meet all the heroes from the field</h3>
+                     <p class="text-[#ffffff99] font-[500]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+               </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle bg-black text-[white]">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-black text-[white]">❯</a>
+                  </div>
+                </div> 
+                
+              </div>
+        </div>
+    </header>
+    <main>
+      
+      <div class="container mx-auto w-[1170px] flex flex-col justify-center items-center mt-[100px]">
+        <hr>
+        <h3 class="font-extrabold text-[36px] mb-[20px]">Professional Hockeys Club</h3>
+        <p class="w-[600px] text-[#13131899] text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <hr>
+        <div class="flex gap-[30px] mt-[80px]">
+          <div class="flex flex-col justify-center items-center gap-[20px]">
+          <div class="radial-progress" style="--value:87; color: rgb(255, 24, 24);" role="progressbar"><span class="text-[black] font-[800]">87%</span></div>
+          <h3 class="text-[20px] font-[600]">Prayer Facility</h3>
+          <p class="w-[250px] font-[400] text-[#13131899] text-center">87% satisfaction,excellent amenities environments.</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[20px]">
+          <div class="radial-progress" style="--value:95; color: rgb(115, 255, 110);" role="progressbar"><span class="text-[black] font-[800]">95%</span></div>
+          <h3 class="text-[20px] font-[600]">Experienced Coach</h3>
+          <p class="w-[250px] font-[400] text-[#13131899] text-center">95% satisfaction, ensuring skill development and team success.</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[20px]">
+          <div class="radial-progress" style="--value:90; color: rgb(255, 255, 82);" role="progressbar"><span class="text-[black] font-[800]">90%</span></div>
+          <h3 class="text-[20px] font-[600]">Senior Player</h3>
+          <p class="w-[250px] font-[400] text-[#13131899] text-center">90% rating highlights expertise, leadership, and on-field impact.</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[20px]">
+          <div class="radial-progress" style="--value:80; color: rgb(0, 115, 255);" role="progressbar"><span class="text-[black] font-[800]">80%</span></div>
+          <h3 class="text-[20px] font-[600]">Training Ground</h3>
+          <p class="w-[250px] font-[400] text-[#13131899] text-center font-manrope">90% rating indicates top-notch facilities and effective coaching.</p>
+          </div>
+      </div>
+        
+      </div>
+
+      <section class="mt-[100px]">
+            <div class="container mx-auto w-[1170px] flex flex-col justify-center items-center">
+              <h3 class="font-extrabold text-[36px] mb-[20px] text-center">Program Sections</h3>
+        <p class="w-[600px] text-[#13131899] text-center mb-[60px]">Program sections organize tasks, ensuring efficiency and clarity in project management, each serving a distinct purpose for cohesive development.</p>
+        <div class="grid grid-cols-2 gap-[25px]">
+          <div class="w-[573px] h-[338px] pl-[40px] pt-[95px]" style="background: linear-gradient(0deg, #13131880 0%, #13131880 100%),url(Images/2.png); border-radius: 15px;">
+            <h3 class="text-[28px] font-[800] text-white mb-[12px]">Junior Program</h3>
+            <p class="text-[#FFF] w-[495px] h-[78] font-[400] text-[16px] mb-[20px]">Junior hockey programs nurture young talents, providing training and competition at a level below professional leagues, fostering player development.</p>
+              <button class="btn btn-primary bg-[#FF4240] border-0 text-[20px] font-[600] text-white">Register Now!</button>
+          </div>
+          <div class="w-[573px] h-[338px] pl-[40px] pt-[95px]" style="background: linear-gradient(0deg, #13131880 0%, #13131880 100%),url(Images/3.png); border-radius: 15px;">
+            <h3 class="text-[28px] font-[800] text-white mb-[12px]">Teenager Program</h3>
+            <p class="text-[#FFF] w-[495px] h-[78] font-[400] text-[16px] mb-[20px]">Teenager hockey programs focus on developing skills and teamwork for young players, preparing them for higher levels of competition.</p>
+              <button class="btn btn-primary bg-[#FF4240] border-0 text-[20px] font-[600] text-white">Register Now!</button></div>
+          <div class="col-span-2 w-[1170px] h-[450px] pl-[40px] pt-[170px]" style="background: linear-gradient(0deg, #13131880 0%, #13131880 100%),url(Images/4.png); border-radius: 15px;">
+            <h3 class="text-[28px] font-[800] text-white mb-[12px]">Professional Program</h3>
+            <p class="text-[#FFF] w-[495px] h-[78] font-[400] text-[16px] mb-[20px]">Professional hockey programs encompass elite leagues where skilled players compete at the highest level, showcasing talent, dedication, and teamwork in pursuit of championships and individual excellence on the ice.</p>
+              <button class="btn btn-primary bg-[#FF4240] border-0 text-[20px] font-[600] text-white">Register Now!</button></div>
+        </div>
+
+            </div>
+      </section>
+
+
+      <section class="mt-[100px]">
+        <div class="container mx-auto w-[1170px] flex flex-col justify-center items-center">
+          <div class="container mx-auto w-[1170px] flex flex-col justify-center items-center">
+            <h3 class="font-extrabold text-[36px] mb-[20px] text-center">Our New Products</h3>
+      <p class="w-[600px] text-[#13131899] text-center mb-[60px]">Explore our new hockey products, designed for performance, durability, and style. Elevate your game with cutting-edge equipment and gear.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-[24px]">
+              <div class="hero w-[573px] h-[218] bg-white border-[1px] rounded-2xl">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="Images/5.png" />
+                  <div class="space-y-[15px]">
+                    <div class="flex gap-[50px]">
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-star text-amber-500"></i>     5.0</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-eye font-[100]"></i>    20</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-heart font-[100]"></i>    200</h4>
+                    </div>
+                    <h1 class="text-6 font-[800]">Hockey  Jacket</h1>
+                    <p class=" text-[#13131899] font-[500] text-[15px]">High-quality hockey jacket: Comfort, warmth, and style for optimal performance.</p>
+                    <div class="flex gap-[70px]">
+                      <h4 class="text-[#FF4240] font-[800] text-[15px]">Price - $22.00</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-cart-shopping  "></i>  Delivery Fee : Free</h4>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="hero w-[573px] h-[218] bg-white border-[1px] rounded-2xl">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="Images/6.png" />
+                  <div class="space-y-[15px]">
+                    <div class="flex gap-[50px]">
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-star text-amber-500"></i>     5.0</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-eye font-[100]"></i>    85</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-heart font-[100]"></i>    741</h4>
+                    </div>
+                    <h1 class="text-6 font-[800]">Premium Football</h1>
+                    <p class=" text-[#13131899] font-[500] text-[15px]">High-quality Football: Comfort, warmth, and style for optimal performance.</p>
+                    <div class="flex gap-[70px]">
+                      <h4 class="text-[#FF4240] font-[800] text-[15px]">Price - $82.00</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-cart-shopping  "></i>  Delivery Fee : Free</h4>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="hero w-[573px] h-[218] bg-white border-[1px] rounded-2xl">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="Images/7.png" />
+                  <div class="space-y-[15px]">
+                    <div class="flex gap-[50px]">
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-star text-amber-500"></i>     5.0</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-eye font-[100]"></i>    67</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-heart font-[100]"></i>    852</h4>
+                    </div>
+                    <h1 class="text-6 font-[800]">Hockey  Cap</h1>
+                    <p class=" text-[#13131899] font-[500] text-[15px]">High-quality hockey Cap: Comfort, warmth, and style for optimal performance.</p>
+                    <div class="flex gap-[70px]">
+                      <h4 class="text-[#FF4240] font-[800] text-[15px]">Price - $19.00</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-cart-shopping  "></i>  Delivery Fee : Free</h4>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="hero w-[573px] h-[218] bg-white border-[1px] rounded-2xl">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="Images/8.png" />
+                  <div class="space-y-[15px]">
+                    <div class="flex gap-[50px]">
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-star text-amber-500"></i>     5.0</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-eye font-[100]"></i>    94</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-heart font-[100]"></i>    847</h4>
+                    </div>
+                    <h1 class="text-6 font-[800]">Hockey  Jersey</h1>
+                    <p class=" text-[#13131899] font-[500] text-[15px]">High-quality hockey Jersey: Comfort, warmth, and style for optimal performance.</p>
+                    <div class="flex gap-[70px]">
+                      <h4 class="text-[#FF4240] font-[800] text-[15px]">Price - $84.00</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-cart-shopping  "></i>  Delivery Fee : Free</h4>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="hero w-[573px] h-[218] bg-white border-[1px] rounded-2xl">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="Images/9.png" />
+                  <div class="space-y-[15px]">
+                    <div class="flex gap-[50px]">
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-star text-amber-500"></i>     5.0</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-eye font-[100]"></i>    49</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-heart font-[100]"></i>    760</h4>
+                    </div>
+                    <h1 class="text-6 font-[800]">Hockey  Helmet</h1>
+                    <p class=" text-[#13131899] font-[500] text-[15px]">High-quality hockey Helmet: Comfort, warmth, and style for optimal performance.</p>
+                    <div class="flex gap-[70px]">
+                      <h4 class="text-[#FF4240] font-[800] text-[15px]">Price - $72.00</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-cart-shopping  "></i>  Delivery Fee : Free</h4>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="hero w-[573px] h-[218] bg-white border-[1px] rounded-2xl">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img src="Images/10.png" />
+                  <div class="space-y-[15px]">
+                    <div class="flex gap-[50px]">
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-star text-amber-500"></i>     5.0</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-eye font-[100]"></i>    20</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-regular fa-heart font-[100]"></i>    340</h4>
+                    </div>
+                    <h1 class="text-6 font-[800]">Basic Football</h1>
+                    <p class=" text-[#13131899] font-[500] text-[15px]">High-quality basic football: Comfort, warmth, and style for optimal performance.</p>
+                    <div class="flex gap-[70px]">
+                      <h4 class="text-[#FF4240] font-[800] text-[15px]">Price - $29.50</h4>
+                      <h4 class="text-[#13131880] font-[500] text-[15px]"><i class="fa-solid fa-cart-shopping  "></i>  Delivery Fee : Free</h4>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
