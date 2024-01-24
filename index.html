@@ -34,10 +34,10 @@
     <header>
         <nav></nav>
         <div class="container mx-auto w-[1170px] flex flex-col justify-center items-center">
-            <div class="carousel w-[1170px] h-[550px] rounded-2xl">
+            <div class="carousel w-[335px] h-[200px] md:w-[1170px] md:h-[550px] rounded-2xl">
                 <div id="slide1" class="carousel-item relative w-full">
                   <!-- <img src="Images/1.png" class="w-full" /> -->
-                  <div class="w-full" style="background-image: url(Images/1.png)">
+                  <div class="w-full" style="background-image: url(Images/1.png); background-size: cover; background-repeat: no-repeat; background-position:center;">
                        <div class="w-[510px] h-[160px] bg-black rounded-lg text-[white] p-[32px] space-y-[8px] mt-[360px] ml-[630px]">
                         <h3 class="font-extrabold text-[24px] font-manrope">Meet all the heroes from the field</h3>
                         <p class="text-[#ffffff99] font-[500]">Explore and meet the field's heroes.Learn about their journeys,accomplishments,and inspirations. </p>
@@ -52,7 +52,7 @@
                  
                 <div id="slide2" class="carousel-item relative w-full">
                   <!-- <img src="Images/h2.webp" class="w-full" /> -->
-                  <div class="w-full" style="background-image: url(Images/h2.webp)">
+                  <div class="w-full" style="background-image: url(Images/h2.webp); background-size: cover; background-repeat: no-repeat;" >
                     <div class="w-[510px] h-[160px] bg-black rounded-lg text-[white] p-[32px] space-y-[8px] mt-[360px] ml-[630px]">
                      <h3 class="font-extrabold text-[24px] font-manrope">Meet all the heroes from the field</h3>
                      <p class="text-[#ffffff99] font-[500]">Get to know the field's heroes personally. Dive into their stories, achievements, and insights. </p>
@@ -65,7 +65,7 @@
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
                   <!-- <img src="Images/h3.jpg" class="w-full" /> -->
-                  <div class="w-full" style="background-image: url(Images/h3.jpg); background-size: contain;">
+                  <div class="w-full" style="background-image: url(Images/h3.jpg); background-size: cover; background-repeat: no-repeat;">
                     <div class="w-[510px] h-[160px] bg-black rounded-lg text-[white] p-[32px] space-y-[8px] mt-[360px] ml-[630px]">
                      <h3 class="font-extrabold text-[24px] font-manrope">Meet all the heroes from the field</h3>
                      <p class="text-[#ffffff99] font-[500]">Encounter the field's champions. Uncover their stories, triumphs, and insights. </p>
@@ -406,17 +406,17 @@
     </main>
     
       <div class="container mx-[130%] md:mx-auto w-[335px] md:w-[1170px] flex  justify-center items-center mt-[100px]">
-        <footer class="footer px-[100px] py-[100px] bg-black text-base-content text-white ">
+        <footer class="footer py-[30px] h-[700px]  md:px-[100px] md:h-[389px] md:py-[100px] bg-black text-base-content text-white md:grid-rows-1">
           
-          <aside>
+          <aside class="grid col-span-2 justify-center items-center md:grid-rows-1 w-[335px] md:w-[346px] md:h-[178px]">
             <h3 class="text-[28px] font-[800] mb-[16px]">Get In Touch</h3>
-            <p class="w-[346px] h-[78px] text-[#ffffff99] font-[500]">Hockey unites passion and skill, creating a thrilling symphony on ice. Embrace the spirit, live the game, celebrate hockey's legacy.</p>
+            <p class="w-[297px] md:w-[346px] md:h-[78px] text-[#ffffff99] font-[500]">Hockey unites passion and skill, creating a thrilling symphony on ice. Embrace the spirit, live the game, celebrate hockey's legacy.</p>
             <p class="text-[#ffffff99] font-[500]"><i class="fa-regular fa-envelope font-[100] text-[#FF4240]"></i>  nuhaiyan100@gmail.com</p>
             <p class="text-[#ffffff99] font-[500]"><i class="fa-solid fa-phone text-[#FF4240]"></i>  01646-668288</p>
 
             
           </aside> 
-          <nav>
+          <nav class="grid col-span-1 justify-center items-center w-[150px] md:w-[101px] md:h-[189px]">
             <header class=" text-[18px] font-[700] text-white mb-[29px]">Company</header> 
             <a class="link link-hover text-[#ffffff99] font-[500]">About us</a>
             <a class="link link-hover text-[#ffffff99] font-[500]">leadership</a>
@@ -424,14 +424,15 @@
             <a class="link link-hover text-[#ffffff99] font-[500]">News & Articles</a>
             <a class="link link-hover text-[#ffffff99] font-[500]">Legal Notice</a>
           </nav>
-          <nav>
+          <nav class="grid col-span-1 justify-center items-center w-[150px] md:w-[101px] md:h-[189px]">
             <header class="text-[18px] font-[700] text-white mb-[29px]">Support</header> 
             <a class="link link-hover text-[#ffffff99] font-[500]">Help Center</a>
             <a class="link link-hover text-[#ffffff99] font-[500]">FAQ</a>
             <a class="link link-hover text-[#ffffff99] font-[500]">Ticket Support</a>
             <a class="link link-hover text-[#ffffff99] font-[500]">Contact Us</a>
           </nav>
-          <nav>
+          
+          <nav class="grid col-span-2 justify-center items-center w-[335px] md:w-[123px] md:h-[189px] md:grid-rows-1 ">
             <header class=" text-[18px] font-[700] text-white mb-[29px]">Services</header> 
             <a class="link link-hover text-[#ffffff99] font-[500]">Academy</a>
             <a class="link link-hover text-[#ffffff99] font-[500]">Group Lessons</a>
